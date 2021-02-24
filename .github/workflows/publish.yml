@@ -30,7 +30,7 @@ jobs:
       uses: SpicyPizza/create-envfile@v1
       with:
         # envkey_REACT_APP_MESSAGE: "Ciao sono su GH Pages"
-        envkey_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+        envkey_REACT_APP_MESSAGE: ${{ secrets.REACT_APP_MESSAGE }}
         file_name: .env.production
 
 
